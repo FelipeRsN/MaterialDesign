@@ -56,5 +56,9 @@ public class MainActivity extends AppCompatActivity {
                 "Our eyes are naturally drawn to motion. If something iss moving while everything around iy stays the same, we're naturally drawn to the thing that's moving.",
                 BitmapFactory.decodeResource(this.getResources(), R.drawable.ic_eye_grey_48dp)));
 
+        list.add(new CardviewModel("Animated Vector Drawables",
+                "Starting from API 25, AnimatedVectorDrawable runs on RenderThread (as opposed to on UI thread for earlier APIs). This means animations in AnimatedVectorDrawable can remain smooth even when there is heavy workload on the UI thread.",
+                BitmapFactory.decodeResource(this.getResources(), R.drawable.ic_vector_curve_grey600_48dp)));
+
     }
 }

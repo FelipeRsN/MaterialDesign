@@ -23,8 +23,10 @@
         </activity>
         <activity android:name=".Activity.TransitionActivity" />
         <activity android:name=".Activity.TransitionSubActivity" />
-        <activity android:name=".Activity.InstructiveActivity"
-            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Activity.InstructiveActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Activity.VectorDrawableActivity"></activity>
     </application>
 
 </manifest>

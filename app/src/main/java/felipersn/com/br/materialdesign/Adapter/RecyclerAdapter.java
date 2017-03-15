@@ -13,6 +13,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import felipersn.com.br.materialdesign.Activity.InstructiveActivity;
+import felipersn.com.br.materialdesign.Activity.VectorDrawableActivity;
 import felipersn.com.br.materialdesign.Application.App;
 import felipersn.com.br.materialdesign.Model.CardviewModel;
 import felipersn.com.br.materialdesign.R;
@@ -61,6 +62,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
                     case 0: activity.startActivity(new Intent(activity, TransitionActivity.class));
                         break;
                     case 1: activity.startActivity(new Intent(activity, InstructiveActivity.class));
+                        break;
+                    case 2: activity.startActivity(new Intent(activity, VectorDrawableActivity.class));
                         break;
                     default: Snackbar.make(v,"Position not found",Snackbar.LENGTH_LONG).show();
                 }
