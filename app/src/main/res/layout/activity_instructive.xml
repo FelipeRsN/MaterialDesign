@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="felipersn.com.br.materialdesign.Activity.InstructiveActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:src="@drawable/background_instructive"
+        android:scaleType="centerCrop"/>
+    
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="25dp"
+        android:elevation="4dp"
+        android:src="@drawable/arrow_left_white_48"/>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:paddingTop="420dp"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="8dp"
+            android:background="#FFF"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Instructive Motion"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Felipe Silveira, 2017"
+                android:textSize="16sp"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:text="Drawing objects on screen is a pretty basic feature of OpenGL, but you can do this with other Android graphics framwork classes, including Canvas and Drawable objects. OpenGL ES provides additional capabilities for moving and transforming drawn objects in three dimensions or in other unique ways to create compelling user experiences.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est nibh, tempor nec eleifend non, vehicula rhoncus metus. Phasellus eu erat felis. Suspendisse congue ornare augue vitae finibus. Aliquam a tellus erat. Aenean vitae semper magna. Ut pretium massa vel eros interdum, a blandit risus scelerisque. Praesent molestie dui at lacinia pulvinar. Curabitur ultricies mauris sed enim facilisis, id scelerisque ante semper. Etiam arcu enim, cursus eget accumsan nec, lobortis ac diam. Vestibulum ac venenatis purus. Sed in augue at odio euismod rutrum non vitae sapien. Nulla facilisi. Nam eu facilisis justo. Sed vehicula neque eu sagittis sagittis.\n\nVivamus sit amet lorem at neque ullamcorper consectetur. Etiam commodo ipsum ex, sed venenatis lectus pulvinar sit amet. Morbi eleifend enim sed ipsum lobortis fermentum."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
